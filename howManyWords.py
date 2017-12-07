@@ -4,16 +4,18 @@
 
 dictionary = open('engmix.txt')
 words = []
-for i in range(22):
+for i in range(23):
     words.append(0)
 
 for word in dictionary:
-    for i in
-    if  len word == 1:
-        words[0] == words[0]+1
+    x = len(word.strip())
+    words[x-1] +=1
     
-
-print('Thelongest word is: ',wordCount)
+for i in range(22):
+    if words[i-1] == 1 and i != 0:
+        print('There is: ',words[i-1],',',i,'letter word')
+    elif words[i-1] > 1 and i != 0:
+        print('There are: ',words[i-1],',',i,'letter words')
 
 
 
