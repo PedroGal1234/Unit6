@@ -38,3 +38,25 @@ for line in file:
 for i in l:
     print(i)
 '''
+
+dictionary = open('engmix.txt')
+letter = input('Enter a letter: ')
+letterCount= 0
+longest = ' '
+for word in dictionary:
+    x = 0
+    for letter in word.strip():
+        x += 1
+    if x > letterCount:
+        letterCount = x
+        longest = word.strip()
+
+print('The word with the most: ',letter+"'s is",longest)
+
+
+
+
+
+
+
+
