@@ -1,7 +1,7 @@
 #Pedro Gallino
 #12/8/17
 #HW.py - homework for unit 6
-
+'''
 dictionary = open('engmix.txt')
 
 word = input('Enter a word to search for: ')
@@ -15,8 +15,8 @@ if yes == True:
     print(word,'is in the dictionary')
 else:
     print(word,'is not in the dictionary')
-
-
+'''
+"""
 dictionary = open('engmix.txt')
 
 neatList = []
@@ -26,7 +26,9 @@ for w in dictionary:
 
 num = int(input('Enter a number to search for: '))
 print(neatList[num-1])
+"""
 
+'''
 openFile = input('Enter a file: ')
 file = open(openFile)
 l = []
@@ -35,4 +37,4 @@ for line in file:
 
 for i in l:
     print(i)
-
+'''
