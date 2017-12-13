@@ -18,10 +18,41 @@ for word in dictionary:
         print(word.strip())
 """
 
-
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    if word != '':
-        if word[0] =='r':
-            print(word.strip())
+    if word.strip() != '':
+            if word.strip()[0] == 'r':
+                print(word.strip())
+
+
+
+"""
+dictionary = open('engmix.txt')
+
+length = int(input('Enter a number: '))
+
+for word in dictionary:
+    if len(word.strip()) == length:
+        print(word.strip())
+        break
+    
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
