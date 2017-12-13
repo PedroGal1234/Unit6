@@ -20,15 +20,17 @@ for word in dictionary:
 
 
 
-dictionary = open('engmix.txt')
+'''
 
+dictionary = open('engmix.txt')
+num = 0
 for word in dictionary:
     if word.strip() != '':
-            if word.strip()[0] == 'r':
-                print(word.strip())
+        if word.strip()[0] == 'r':
+            num += 1
+print('There are',num,'Word that start with the letter "r" in the dictionary')
 
-
-
+'''
 
 
 """
