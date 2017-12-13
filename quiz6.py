@@ -17,7 +17,9 @@ for word in dictionary:
     if cCount == 3 and pCount == 2:
         print(word.strip())
 """
-'''
+
+
+
 dictionary = open('engmix.txt')
 
 for word in dictionary:
@@ -26,7 +28,9 @@ for word in dictionary:
                 print(word.strip())
 
 
-'''
+
+
+
 """
 dictionary = open('engmix.txt')
 
@@ -37,6 +41,32 @@ for word in dictionary:
         print(word.strip())
         break
     
+"""
+
+
+'''
+dictionary = open('engmix.txt')
+
+search = input('Enter a letter: ')
+count = 0
+for word in dictionary:
+    if word.strip() != '':    
+        if search not in word.strip():
+            count += 1
+
+print(count)
+
+'''
+
+
+"""
+dictionary = open('engmix.txt')
+l = []
+for line in dictionary:
+    if line.strip() != '':
+        l.append(line.strip())
+
+print(l[len(l[:])/2])
 """
 
 
