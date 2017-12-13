@@ -17,7 +17,7 @@ for word in dictionary:
     if cCount == 3 and pCount == 2:
         print(word.strip())
 """
-
+'''
 dictionary = open('engmix.txt')
 
 for word in dictionary:
@@ -26,7 +26,7 @@ for word in dictionary:
                 print(word.strip())
 
 
-
+'''
 """
 dictionary = open('engmix.txt')
 
